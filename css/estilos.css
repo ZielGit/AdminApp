@@ -1,8 +1,8 @@
+/* Estilo global */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a{
+    font-family: 'ubuntu', sans-serif;
+}
+
 #main-footer {
     margin-top: 282px !important;
 }
-
-/* .footer{
-    position:static;
-    bottom: 0;
-} */
