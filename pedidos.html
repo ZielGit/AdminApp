@@ -128,8 +128,8 @@
                                 <a class="text-dark" href="inventario.html">Inventario</a>
                                 <span class="badge badge-primary badge-pill">20</span>
                             </li>
-                            <li class="list-group-item list-group-item-secundary d-flex justify-content-between align-items-center">
-                                <a class="text-dark" href="pedidos.html">Pedidos</a>
+                            <li class="list-group-item list-group-item-secundary d-flex justify-content-between align-items-center active">
+                                <a class="text-white" href="pedidos.html">Pedidos</a>
                                 <span class="badge badge-primary badge-pill">14</span>
                             </li>
                             <li class="list-group-item list-group-item-secundary d-flex justify-content-between align-items-center">
@@ -163,66 +163,116 @@
             </div>
             <!-- Layout de 9 columnas -->
             <div class="col-sm-12 col-md-9">
-                <div class="card">
-                    <div class="card-header bg-dark text-white">
-                        <h4><i class="fas fa-shopping-cart"></i> Panel de Control/Ecommerce</h4>
-                    </div>
+                <div class="row">
                     <div class="card-body">
-                        <div class="d-flex justify-content-around row-h1">
-                            <div class="col-sm-12 col-md-3 card py-3 bg-danger text-center text-white">
-                                <i class="fas fa-shopping-cart" style="font-size: 4rem;"></i>
-                                <h4>Ventas</h4>
-                                <p>100 Nuevos pedidos</p>
-                            </div>
-
-                            <div class="col-sm-12 col-md-3 card py-3 bg-warning text-center text-white">
-                                <i class="fas fa-user" style="font-size: 4rem;"></i>
-                                <h4>Clientes</h4>
-                                <p>50 Nuevos Clientes</p>
-                            </div>
-
-                            <div class="col-sm-12 col-md-3 card py-3 bg-success text-center text-white">
-                                <i class="fas fa-table" style="font-size: 4rem;"></i>
-                                <h4>Productos</h4>
-                                <p>50 Nuevos Productos</p>
-                            </div>
-                        </div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">
+                                    <a href="panel.html">Inicio</a>
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page">Pedidos</li>
+                            </ol>
+                        </nav>
                     </div>
                 </div>
 
                 <!-- Últimos productos -->
                 <div class="card mt-5">
                     <div class="card-header bg-dark text-white">
-                        <h4><i class="fas-fatable"></i>Últimos Productos</h4>
+                        <h4><i class="fas-fatable"></i> Pedidos</h4>
                     </div>
                     <div class="card-body">
                         <table class="table table-striped">
                             <t-head>
                                 <tr>
                                     <th>#</th>
-                                    <th>Producto</th>
-                                    <th>Talla</th>
-                                    <th>Precio</th>
+                                    <th>Pedido</th>
+                                    <th>Fecha</th>
+                                    <th>Cantidad de Productos</th>
+                                    <th>Total</th>
+                                    <th>Acciones</th>
                                 </tr>
                             </t-head>
                             <t-body>
                                 <tr>
                                     <td>1</td>
-                                    <td>Camisa 1</td>
-                                    <td>X</td>
-                                    <td>$ 40.000</td>
+                                    <td>D001</td>
+                                    <td>03/05/2019</td>
+                                    <td>7</td>
+                                    <td>$ 230.00</td>
+                                    <td style="width: 150px;">
+                                        <div class="btn-group" role="group">
+                                            <a href="" class="btn btn-primary text-white">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a href="" class="btn btn-success text-white">
+                                                <i class="fas fa-list-alt"></i>
+                                            </a>
+                                            <a href="" class="btn btn-danger text-white">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>2</td>
-                                    <td>Camisa 2</td>
-                                    <td>L</td>
-                                    <td>$ 52.000</td>
+                                    <td>1</td>
+                                    <td>D001</td>
+                                    <td>03/05/2019</td>
+                                    <td>7</td>
+                                    <td>$ 230.00</td>
+                                    <td style="width: 150px;">
+                                        <div class="btn-group" role="group">
+                                            <a href="" class="btn btn-primary text-white">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a href="" class="btn btn-success text-white">
+                                                <i class="fas fa-list-alt"></i>
+                                            </a>
+                                            <a href="" class="btn btn-danger text-white">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>3</td>
-                                    <td>Camisa 3</td>
-                                    <td>M</td>
-                                    <td>$ 60.000</td>
+                                    <td>1</td>
+                                    <td>D001</td>
+                                    <td>03/05/2019</td>
+                                    <td>7</td>
+                                    <td>$ 230.00</td>
+                                    <td style="width: 150px;">
+                                        <div class="btn-group" role="group">
+                                            <a href="" class="btn btn-primary text-white">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a href="" class="btn btn-success text-white">
+                                                <i class="fas fa-list-alt"></i>
+                                            </a>
+                                            <a href="" class="btn btn-danger text-white">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>D001</td>
+                                    <td>03/05/2019</td>
+                                    <td>7</td>
+                                    <td>$ 230.00</td>
+                                    <td style="width: 150px;">
+                                        <div class="btn-group" role="group">
+                                            <a href="" class="btn btn-primary text-white">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            <a href="" class="btn btn-success text-white">
+                                                <i class="fas fa-list-alt"></i>
+                                            </a>
+                                            <a href="" class="btn btn-danger text-white">
+                                                <i class="fas fa-trash-alt"></i>
+                                            </a>
+                                        </div>
+                                    </td>
                                 </tr>
                             </t-body>
                         </table>
@@ -277,5 +327,10 @@
     <!-- Option 1: jQuery and Bootstrap Bundle -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <!-- CKEditor 4 -->
+    <script src="//cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace("editor1");
+    </script>
 </body>
 </html>
